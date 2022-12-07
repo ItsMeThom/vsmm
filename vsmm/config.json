@@ -1,0 +1,10 @@
+{
+    "app.mode": "dark",
+    "app.location": "",
+    "app.downloads_location": "./downloads",
+    "app.profiles_location": "./profiles",
+    "app.downloads.always_overwrite": "true",
+    "game.folder_path": "./VintageStory"
+    
+
+}
