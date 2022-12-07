@@ -28,7 +28,7 @@ class RequestClient:
 
     headers = {
         'User-Agent': 'Vintage Story Mod Manager',
-        'From': 'thom.lambert@outlook.com'  # This is another valid field
+        'From': ''  # This is another valid field
     }
     def __init__(self, cfg: configuration):
         #todo: pass app config on init
