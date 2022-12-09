@@ -14,7 +14,7 @@ Very much a Work in Progress.
 ## Todo:
 - [x] Backend Client to communicate with Vintage Story ModDB API
 - [x] Profile management - saving, loading, deploying and undeploying profiles
-- [] Unit tests for each module
+- [ ] Unit tests for each module
 - [x] UI in pysimplegui
-- [] Wire UI logic to backend (Profiles, deployments, launching VintageStory)
-- [] Add settings page to let user set profiles/downloads directory, and game path
+- [ ] Wire UI logic to backend (Profiles, deployments, launching VintageStory)
+- [ ] Add settings page to let user set profiles/downloads directory, and game path
