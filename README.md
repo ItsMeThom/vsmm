@@ -16,5 +16,6 @@ Very much a Work in Progress.
 - [x] Profile management - saving, loading, deploying and undeploying profiles
 - [ ] Unit tests for each module
 - [x] UI in pysimplegui
-- [ ] Wire UI logic to backend (Profiles, deployments, launching VintageStory)
-- [ ] Add settings page to let user set profiles/downloads directory, and game path
+- [ ] Wire UI logic to backend (Profiles, deployments, add/remove mods, launching VintageStory)
+- [ ] Add settings window to let user set profiles/downloads directory, and game path
+- [ ] Add status window to show current activity (fetching mod info, downloading mod, etc)
