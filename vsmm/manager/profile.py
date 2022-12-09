@@ -123,7 +123,7 @@ class ProfileManager:
             tags=mod_info.tags,
             version=mod_version,
             archive_path=archive_path,
-            archive_name=str(archive_path).split("/")[-1]
+            archive_name=str(archive_path).split(os.pathsep)[-1]
         )
         # todo: check mod already in profile, raise err if true
         for mod in profile.mods:

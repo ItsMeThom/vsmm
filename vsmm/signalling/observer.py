@@ -18,7 +18,7 @@ class Observable:
         self.callbacks = {s: [] for s in self.signals}
 
     def subscribe(self, signal: str, callback: function):
-        self.callbacks.append(callback)
+        self.callbacks[signal].append(callback)
 
     def emit_signal(self, signal: str, **attrs):
         e = Event()

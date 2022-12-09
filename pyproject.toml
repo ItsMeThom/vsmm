@@ -12,6 +12,7 @@ customtkinter = "^5.0.1"
 python-configuration = "^0.8.2"
 pydantic = "^1.10.2"
 loguru = "^0.6.0"
+pysimplegui = "^4.60.4"
 
 
 [tool.poetry.group.dev.dependencies]

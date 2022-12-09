@@ -18,17 +18,17 @@ class ModInfo(BaseModel):
     modid: int
     assetid: int
     name: str
-    text: str
+    text: Optional[str]
     author: str
-    logofile: str
-    homepageurl: str
+    logofile: Optional[str]
+    homepageurl: Optional[str]
     dowwloads: int = 0
     follows: int = 0
     trendingpoints: int = 0
     side: str
-    tags: List[str]
-    releases: List[Any] #is a dict
-    screenshots: List[Any]
+    tags: Optional[List[str]]
+    releases: Optional[List[Any]] #is a dict
+    screenshots: Optional[List[Any]]
 
 
 class ModMetadata(BaseModel):

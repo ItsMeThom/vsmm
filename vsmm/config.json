@@ -1,5 +1,6 @@
 {
     "app.mode": "dark",
+    "app.version": "0.1.0",
     "app.location": "",
     "app.downloads_location": "./downloads",
     "app.profiles_location": "./profiles",
