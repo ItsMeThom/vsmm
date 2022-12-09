@@ -1,7 +1,4 @@
-import random
-import string
 import sys
-from typing import Any # added!
 sys.path.append("..") # added!
 
 from api.client import APIClient
@@ -11,13 +8,6 @@ from manager.mod import ModManager
 from manager.file import FileManager
 from manager.profile import ProfileManager
 from text_stripper import TextStripper
-
-# # profile_manager.remove_mod_from_profile("Default", 219, "1.0.2-rc.1")
-# profile_manager.deploy_profile("Default")
-# profile_manager.undeploy_profile("Default")
-
-
-import sys
 
 import PySimpleGUI as sg
 
