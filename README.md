@@ -19,3 +19,4 @@ Very much a Work in Progress.
 - [ ] Wire UI logic to backend (Profiles, deployments, add/remove mods, launching VintageStory)
 - [ ] Add settings window to let user set profiles/downloads directory, and game path
 - [ ] Add status window to show current activity (fetching mod info, downloading mod, etc)
+- [ ] Build and release!
